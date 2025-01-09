@@ -46,6 +46,11 @@ local M = {
   ---@type boolean
   show_basename = true,
 
+  ---Position of the icon relative to the filename. Can be "before" or "after".
+  ---
+  ---@type '"before"'|'"after"'
+  icon_position = "before",
+
   ---Whether to replace file icon with the modified symbol when buffer is
   ---modified.
   ---
