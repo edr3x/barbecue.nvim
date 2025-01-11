@@ -260,12 +260,12 @@ you've seen in the select menu of raw `:Barbecue`.
   ---Buftypes to enable winbar in.
   ---
   ---@type string[]
-  include_buftypes = { "" },
+  include_buftypes = { "acwrite" },
 
   ---Filetypes not to enable winbar in.
   ---
   ---@type string[]
-  exclude_filetypes = { "netrw", "toggleterm" },
+  exclude_filetypes = { "", "netrw", "toggleterm" },
 
   modifiers = {
     ---Filename modifiers applied to dirname.
