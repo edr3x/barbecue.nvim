@@ -22,6 +22,10 @@ function M.dirname(bufnr)
   local entries = {}
 
   if dirname == "." then return {} end
+
+  -- Sanitize oil paths
+  dirname = dirname:gsub("^oil:?/?", "/")
+
   if dirname:sub(1, 1) == "/" then
     table.insert(
       entries,
