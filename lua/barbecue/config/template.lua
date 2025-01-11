@@ -13,7 +13,7 @@ local M = {
   ---Buftypes to enable winbar in.
   ---
   ---@type string[]
-  include_buftypes = { "acwrite" },
+  include_buftypes = { "", "acwrite" },
 
   ---Filetypes not to enable winbar in.
   ---
