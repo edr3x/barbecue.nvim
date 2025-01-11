@@ -105,7 +105,7 @@ local function create_entries(winnr, bufnr, extra_length)
   local dirname = components.dirname(bufnr)
 
   -- Don't apply in toggleterm
-  local type = dirname[1].text[1]
+  local type = dirname[1] and dirname[1].text and dirname[1].text[1]
   if type == "term://" then
       return nil
   end
