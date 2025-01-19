@@ -1,3 +1,5 @@
+> Note: the original repository got archived, this is just a fork of a fork for personal use. ( will use this until it stops working )
+
 <div align="center">
 
 # barbecue.nvim
